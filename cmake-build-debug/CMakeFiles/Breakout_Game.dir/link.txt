@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Breakout_Game.dir/main.cpp.o -o Breakout_Game 

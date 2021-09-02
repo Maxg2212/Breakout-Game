@@ -5,10 +5,10 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
     QWidget window;
-    window.resize(320, 240);
+    window.resize(1280, 860);
     window.show();
     window.setWindowTitle(
-            QApplication::translate("toplevel", "Top-level widget"));
+            QApplication::translate("toplevel", "Breakout_Game"));
     return app.exec();
 }
 

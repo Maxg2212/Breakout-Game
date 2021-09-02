@@ -114,9 +114,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/MainWindow.h">
-			<Option target="Breakout_Game"/>
-		</Unit>
 		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/Breakout_Game_autogen/mocs_compilation.cpp">
 			<Option target="Breakout_Game"/>
 		</Unit>

@@ -11,5 +11,5 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
-add_executable(Breakout_Game main.cpp MainWindow.h)
+add_executable(Breakout_Game main.cpp)
 target_link_libraries(Breakout_Game Qt5::Widgets)

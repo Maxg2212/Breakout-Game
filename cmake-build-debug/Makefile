@@ -129,6 +129,43 @@ Breakout_Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/build
 .PHONY : Breakout_Game/fast
 
+#=============================================================================
+# Target rules for targets named Breakout_Game_autogen
+
+# Build rule for target.
+Breakout_Game_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Breakout_Game_autogen
+.PHONY : Breakout_Game_autogen
+
+# fast build rule for target.
+Breakout_Game_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game_autogen.dir/build.make CMakeFiles/Breakout_Game_autogen.dir/build
+.PHONY : Breakout_Game_autogen/fast
+
+Breakout_Game_autogen/mocs_compilation.o: Breakout_Game_autogen/mocs_compilation.cpp.o
+.PHONY : Breakout_Game_autogen/mocs_compilation.o
+
+# target to build an object file
+Breakout_Game_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Breakout_Game_autogen/mocs_compilation.cpp.o
+.PHONY : Breakout_Game_autogen/mocs_compilation.cpp.o
+
+Breakout_Game_autogen/mocs_compilation.i: Breakout_Game_autogen/mocs_compilation.cpp.i
+.PHONY : Breakout_Game_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Breakout_Game_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Breakout_Game_autogen/mocs_compilation.cpp.i
+.PHONY : Breakout_Game_autogen/mocs_compilation.cpp.i
+
+Breakout_Game_autogen/mocs_compilation.s: Breakout_Game_autogen/mocs_compilation.cpp.s
+.PHONY : Breakout_Game_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Breakout_Game_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Breakout_Game_autogen/mocs_compilation.cpp.s
+.PHONY : Breakout_Game_autogen/mocs_compilation.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Breakout_Game_autogen"
 	@echo "... Breakout_Game"
+	@echo "... Breakout_Game_autogen/mocs_compilation.o"
+	@echo "... Breakout_Game_autogen/mocs_compilation.i"
+	@echo "... Breakout_Game_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

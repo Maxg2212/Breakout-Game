@@ -1,3 +1,4 @@
 /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir
+/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game_autogen.dir

@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/Breakout_Game_autogen/mocs_compilation.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Breakout_Game_autogen/mocs_compilation.cpp.o"
-  "/home/maxgm/CLionProjects/Breakout-Game/main.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/main.cpp.o"
+  "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/helloworld_autogen/mocs_compilation.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +23,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
-  "Breakout_Game_autogen/include"
+  "helloworld_autogen/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"

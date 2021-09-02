@@ -72,21 +72,22 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Breakout_Game.dir/clean
+clean: CMakeFiles/Breakout_Game_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Breakout_Game.dir
 
 # All Build rule for target.
-CMakeFiles/Breakout_Game.dir/all:
+CMakeFiles/Breakout_Game.dir/all: CMakeFiles/Breakout_Game_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Breakout_Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Breakout_Game"
 .PHONY : CMakeFiles/Breakout_Game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Breakout_Game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Breakout_Game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Breakout_Game.dir/rule
@@ -99,6 +100,32 @@ Breakout_Game: CMakeFiles/Breakout_Game.dir/rule
 CMakeFiles/Breakout_Game.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/clean
 .PHONY : CMakeFiles/Breakout_Game.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Breakout_Game_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/Breakout_Game_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game_autogen.dir/build.make CMakeFiles/Breakout_Game_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game_autogen.dir/build.make CMakeFiles/Breakout_Game_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=4 "Built target Breakout_Game_autogen"
+.PHONY : CMakeFiles/Breakout_Game_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Breakout_Game_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Breakout_Game_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Breakout_Game_autogen.dir/rule
+
+# Convenience name for target.
+Breakout_Game_autogen: CMakeFiles/Breakout_Game_autogen.dir/rule
+.PHONY : Breakout_Game_autogen
+
+# clean rule for target.
+CMakeFiles/Breakout_Game_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game_autogen.dir/build.make CMakeFiles/Breakout_Game_autogen.dir/clean
+.PHONY : CMakeFiles/Breakout_Game_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

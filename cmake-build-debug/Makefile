@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michael/Documentos/Breakout-Game
+CMAKE_SOURCE_DIR = /home/maxgm/CLionProjects/Breakout-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michael/Documentos/Breakout-Game/cmake-build-debug
+CMAKE_BINARY_DIR = /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/michael/Documentos/Breakout-Game/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles /home/michael/Documentos/Breakout-Game/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,43 +129,6 @@ Breakout_Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/build
 .PHONY : Breakout_Game/fast
 
-#=============================================================================
-# Target rules for targets named Breakout_Game_autogen
-
-# Build rule for target.
-Breakout_Game_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Breakout_Game_autogen
-.PHONY : Breakout_Game_autogen
-
-# fast build rule for target.
-Breakout_Game_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game_autogen.dir/build.make CMakeFiles/Breakout_Game_autogen.dir/build
-.PHONY : Breakout_Game_autogen/fast
-
-Breakout_Game_autogen/mocs_compilation.o: Breakout_Game_autogen/mocs_compilation.cpp.o
-.PHONY : Breakout_Game_autogen/mocs_compilation.o
-
-# target to build an object file
-Breakout_Game_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Breakout_Game_autogen/mocs_compilation.cpp.o
-.PHONY : Breakout_Game_autogen/mocs_compilation.cpp.o
-
-Breakout_Game_autogen/mocs_compilation.i: Breakout_Game_autogen/mocs_compilation.cpp.i
-.PHONY : Breakout_Game_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-Breakout_Game_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Breakout_Game_autogen/mocs_compilation.cpp.i
-.PHONY : Breakout_Game_autogen/mocs_compilation.cpp.i
-
-Breakout_Game_autogen/mocs_compilation.s: Breakout_Game_autogen/mocs_compilation.cpp.s
-.PHONY : Breakout_Game_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-Breakout_Game_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Breakout_Game_autogen/mocs_compilation.cpp.s
-.PHONY : Breakout_Game_autogen/mocs_compilation.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -198,11 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Breakout_Game_autogen"
 	@echo "... Breakout_Game"
-	@echo "... Breakout_Game_autogen/mocs_compilation.o"
-	@echo "... Breakout_Game_autogen/mocs_compilation.i"
-	@echo "... Breakout_Game_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

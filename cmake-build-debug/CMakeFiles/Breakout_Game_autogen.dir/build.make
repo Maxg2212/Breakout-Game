@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michael/Documentos/Breakout-Game
+CMAKE_SOURCE_DIR = /home/maxgm/CLionProjects/Breakout-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michael/Documentos/Breakout-Game/cmake-build-debug
+CMAKE_BINARY_DIR = /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug
 
 # Utility rule file for Breakout_Game_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/Breakout_Game_autogen.dir/compiler_depend.make
 include CMakeFiles/Breakout_Game_autogen.dir/progress.make
 
 CMakeFiles/Breakout_Game_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Breakout_Game"
-	/home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E cmake_autogen /home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Breakout_Game"
+	/home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E cmake_autogen /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game_autogen.dir/AutogenInfo.json Debug
 
 Breakout_Game_autogen: CMakeFiles/Breakout_Game_autogen
 Breakout_Game_autogen: CMakeFiles/Breakout_Game_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/Breakout_Game_autogen.dir/clean:
 .PHONY : CMakeFiles/Breakout_Game_autogen.dir/clean
 
 CMakeFiles/Breakout_Game_autogen.dir/depend:
-	cd /home/michael/Documentos/Breakout-Game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/Documentos/Breakout-Game /home/michael/Documentos/Breakout-Game /home/michael/Documentos/Breakout-Game/cmake-build-debug /home/michael/Documentos/Breakout-Game/cmake-build-debug /home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maxgm/CLionProjects/Breakout-Game /home/maxgm/CLionProjects/Breakout-Game /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Breakout_Game_autogen.dir/depend
 

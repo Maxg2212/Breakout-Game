@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/maxgm/CLionProjects/Breakout-Game/main.cpp
+iostream
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+SFML/Window.hpp
+-
+SFML/Audio.hpp
+-
+SFML/Network.hpp
+-
+

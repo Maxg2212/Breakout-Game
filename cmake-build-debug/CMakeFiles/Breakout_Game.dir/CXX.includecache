@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/maxgm/CLionProjects/Breakout-Game/main.cpp
+/home/michael/Documentos/Breakout-Game/main.cpp
 iostream
 -
 SFML/Graphics.hpp

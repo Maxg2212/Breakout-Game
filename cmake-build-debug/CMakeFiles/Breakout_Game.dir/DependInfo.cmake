@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/maxgm/CLionProjects/Breakout-Game/main.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/main.cpp.o"
+  "/home/michael/Documentos/Breakout-Game/Client/SocketClient.cpp" "/home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Client/SocketClient.cpp.o"
+  "/home/michael/Documentos/Breakout-Game/Client/main.cpp" "/home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Client/main.cpp.o"
+  "/home/michael/Documentos/Breakout-Game/SocketServer/SocketServer.cpp" "/home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.o"
+  "/home/michael/Documentos/Breakout-Game/main.cpp" "/home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

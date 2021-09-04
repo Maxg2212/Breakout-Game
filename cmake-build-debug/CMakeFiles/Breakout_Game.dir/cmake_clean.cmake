@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "Breakout_Game"
   "Breakout_Game.pdb"
+  "CMakeFiles/Breakout_Game.dir/Client/SocketClient.cpp.o"
+  "CMakeFiles/Breakout_Game.dir/Client/main.cpp.o"
+  "CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.o"
   "CMakeFiles/Breakout_Game.dir/main.cpp.o"
 )
 

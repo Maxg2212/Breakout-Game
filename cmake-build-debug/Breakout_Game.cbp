@@ -88,7 +88,17 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< Updated upstream
 		<Unit filename="/home/michael/Documentos/Breakout-Game/Client/SocketClient.cpp">
+=======
+		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.cpp">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.h">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/main.cpp">
+>>>>>>> Stashed changes
 			<Option target="Breakout_Game"/>
 		</Unit>
 		<Unit filename="/home/michael/Documentos/Breakout-Game/Client/SocketClient.h">

@@ -129,6 +129,7 @@ Breakout_Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/build
 .PHONY : Breakout_Game/fast
 
+<<<<<<< Updated upstream
 Client/SocketClient.o: Client/SocketClient.cpp.o
 .PHONY : Client/SocketClient.o
 
@@ -203,27 +204,55 @@ SocketServer/SocketServer.cpp.s:
 
 main.o: main.cpp.o
 .PHONY : main.o
+=======
+Game_GUI/Game.o: Game_GUI/Game.cpp.o
+.PHONY : Game_GUI/Game.o
+>>>>>>> Stashed changes
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/main.cpp.o
-.PHONY : main.cpp.o
+Game_GUI/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o
+.PHONY : Game_GUI/Game.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+Game_GUI/Game.i: Game_GUI/Game.cpp.i
+.PHONY : Game_GUI/Game.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/main.cpp.i
-.PHONY : main.cpp.i
+Game_GUI/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.i
+.PHONY : Game_GUI/Game.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Game_GUI/Game.s: Game_GUI/Game.cpp.s
+.PHONY : Game_GUI/Game.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/main.cpp.s
-.PHONY : main.cpp.s
+Game_GUI/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.s
+.PHONY : Game_GUI/Game.cpp.s
+
+Game_GUI/main.o: Game_GUI/main.cpp.o
+.PHONY : Game_GUI/main.o
+
+# target to build an object file
+Game_GUI/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.o
+.PHONY : Game_GUI/main.cpp.o
+
+Game_GUI/main.i: Game_GUI/main.cpp.i
+.PHONY : Game_GUI/main.i
+
+# target to preprocess a source file
+Game_GUI/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.i
+.PHONY : Game_GUI/main.cpp.i
+
+Game_GUI/main.s: Game_GUI/main.cpp.s
+.PHONY : Game_GUI/main.s
+
+# target to generate assembly for a file
+Game_GUI/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.s
+.PHONY : Game_GUI/main.cpp.s
 
 # Help Target
 help:
@@ -234,6 +263,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Breakout_Game"
+<<<<<<< Updated upstream
 	@echo "... Client/SocketClient.o"
 	@echo "... Client/SocketClient.i"
 	@echo "... Client/SocketClient.s"
@@ -246,6 +276,14 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+=======
+	@echo "... Game_GUI/Game.o"
+	@echo "... Game_GUI/Game.i"
+	@echo "... Game_GUI/Game.s"
+	@echo "... Game_GUI/main.o"
+	@echo "... Game_GUI/main.i"
+	@echo "... Game_GUI/main.s"
+>>>>>>> Stashed changes
 .PHONY : help
 
 

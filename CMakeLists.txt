@@ -20,5 +20,9 @@ if(SFML_FOUND)
 endif()
 
 
+<<<<<<< Updated upstream
 add_executable(Breakout_Game main.cpp SocketServer/SocketServer.cpp SocketServer/SocketServer.h Client/main.cpp Client/SocketClient.cpp Client/SocketClient.h)
+=======
+add_executable(Breakout_Game Game_GUI/main.cpp Game_GUI/Game.cpp Game_GUI/Game.h)
+>>>>>>> Stashed changes
 target_link_libraries (Breakout_Game sfml-graphics sfml-window sfml-system)

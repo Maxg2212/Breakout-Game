@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michael/Documentos/Breakout-Game
+CMAKE_SOURCE_DIR = /home/maxgm/CLionProjects/Breakout-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michael/Documentos/Breakout-Game/cmake-build-debug
+CMAKE_BINARY_DIR = /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/michael/Documentos/Breakout-Game/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/michael/Descargas/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/maxgm/Downloads/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles /home/michael/Documentos/Breakout-Game/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,7 +129,6 @@ Breakout_Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/build
 .PHONY : Breakout_Game/fast
 
-<<<<<<< Updated upstream
 Client/SocketClient.o: Client/SocketClient.cpp.o
 .PHONY : Client/SocketClient.o
 
@@ -154,60 +153,8 @@ Client/SocketClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Client/SocketClient.cpp.s
 .PHONY : Client/SocketClient.cpp.s
 
-Client/main.o: Client/main.cpp.o
-.PHONY : Client/main.o
-
-# target to build an object file
-Client/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Client/main.cpp.o
-.PHONY : Client/main.cpp.o
-
-Client/main.i: Client/main.cpp.i
-.PHONY : Client/main.i
-
-# target to preprocess a source file
-Client/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Client/main.cpp.i
-.PHONY : Client/main.cpp.i
-
-Client/main.s: Client/main.cpp.s
-.PHONY : Client/main.s
-
-# target to generate assembly for a file
-Client/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Client/main.cpp.s
-.PHONY : Client/main.cpp.s
-
-SocketServer/SocketServer.o: SocketServer/SocketServer.cpp.o
-.PHONY : SocketServer/SocketServer.o
-
-# target to build an object file
-SocketServer/SocketServer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.o
-.PHONY : SocketServer/SocketServer.cpp.o
-
-SocketServer/SocketServer.i: SocketServer/SocketServer.cpp.i
-.PHONY : SocketServer/SocketServer.i
-
-# target to preprocess a source file
-SocketServer/SocketServer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.i
-.PHONY : SocketServer/SocketServer.cpp.i
-
-SocketServer/SocketServer.s: SocketServer/SocketServer.cpp.s
-.PHONY : SocketServer/SocketServer.s
-
-# target to generate assembly for a file
-SocketServer/SocketServer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.s
-.PHONY : SocketServer/SocketServer.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
-=======
 Game_GUI/Game.o: Game_GUI/Game.cpp.o
 .PHONY : Game_GUI/Game.o
->>>>>>> Stashed changes
 
 # target to build an object file
 Game_GUI/Game.cpp.o:
@@ -254,6 +201,30 @@ Game_GUI/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.s
 .PHONY : Game_GUI/main.cpp.s
 
+SocketServer/SocketServer.o: SocketServer/SocketServer.cpp.o
+.PHONY : SocketServer/SocketServer.o
+
+# target to build an object file
+SocketServer/SocketServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.o
+.PHONY : SocketServer/SocketServer.cpp.o
+
+SocketServer/SocketServer.i: SocketServer/SocketServer.cpp.i
+.PHONY : SocketServer/SocketServer.i
+
+# target to preprocess a source file
+SocketServer/SocketServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.i
+.PHONY : SocketServer/SocketServer.cpp.i
+
+SocketServer/SocketServer.s: SocketServer/SocketServer.cpp.s
+.PHONY : SocketServer/SocketServer.s
+
+# target to generate assembly for a file
+SocketServer/SocketServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.s
+.PHONY : SocketServer/SocketServer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -263,27 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Breakout_Game"
-<<<<<<< Updated upstream
 	@echo "... Client/SocketClient.o"
 	@echo "... Client/SocketClient.i"
 	@echo "... Client/SocketClient.s"
-	@echo "... Client/main.o"
-	@echo "... Client/main.i"
-	@echo "... Client/main.s"
-	@echo "... SocketServer/SocketServer.o"
-	@echo "... SocketServer/SocketServer.i"
-	@echo "... SocketServer/SocketServer.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-=======
 	@echo "... Game_GUI/Game.o"
 	@echo "... Game_GUI/Game.i"
 	@echo "... Game_GUI/Game.s"
 	@echo "... Game_GUI/main.o"
 	@echo "... Game_GUI/main.i"
 	@echo "... Game_GUI/main.s"
->>>>>>> Stashed changes
+	@echo "... SocketServer/SocketServer.o"
+	@echo "... SocketServer/SocketServer.i"
+	@echo "... SocketServer/SocketServer.s"
 .PHONY : help
 
 

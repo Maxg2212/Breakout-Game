@@ -92,9 +92,25 @@
 			<Option target="Breakout_Game"/>
 		</Unit>
 		<Unit filename="/home/michael/Documentos/Breakout-Game/Client/SocketClient.h">
+<<<<<<< Updated upstream
 			<Option target="Breakout_Game"/>
 		</Unit>
 		<Unit filename="/home/michael/Documentos/Breakout-Game/Game_GUI/Game.cpp">
+=======
+			<Option target="Breakout_Game"/>
+		</Unit>
+<<<<<<< HEAD
+		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.cpp">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.h">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.cpp">
+=======
+		<Unit filename="/home/michael/Documentos/Breakout-Game/Game_GUI/Game.cpp">
+>>>>>>> f15d25415025b1a225cf7f689e1be51d44303176
+>>>>>>> Stashed changes
 			<Option target="Breakout_Game"/>
 		</Unit>
 		<Unit filename="/home/michael/Documentos/Breakout-Game/Game_GUI/Game.h">

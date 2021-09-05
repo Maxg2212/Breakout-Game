@@ -2,7 +2,9 @@
 // Created by maxgm on 3/9/21.
 //
 
+#include <iostream>
 #include "Game.h"
+#include "BarPlayer.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <SFML/Window.hpp>
@@ -19,7 +21,7 @@ void Game::initWindow() {
     this->videoMode.height = 600;
     this->videoMode.width = 800;
     this->window = new sf::RenderWindow(this->videoMode, "Breakout", sf::Style::Titlebar | sf::Style::Close | sf::Style::Resize); //Ventana que tiene un tamana de 800x600, titulo Breakout, que tiene boton de cierre y puede ser expandida
-
+    this->window->setFramerateLimit(60);
 }
 
 //Constructors / Destructors
@@ -55,6 +57,9 @@ void Game::pollEvents() { //getIsOpen
 
 void Game::update() {
     this->pollEvents();
+
+    this->barPlayer.update(this->window);
+
 }
 
 void Game::render() {
@@ -68,6 +73,8 @@ void Game::render() {
      */
     this->window->clear(sf::Color::White);
 
+    //Render stuff
+    this->barPlayer.render(this->window);
 
     //Draw game objects
     this->window->display();

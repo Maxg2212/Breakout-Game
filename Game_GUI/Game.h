@@ -10,6 +10,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
+#include "BarPlayer.h"
 
 //Class that acts as the game engine wrapper class
 
@@ -22,6 +23,7 @@ private:
     sf::Event event;
 
     //Game objects
+    BarPlayer barPlayer;
 
 
     //Private functions

@@ -153,6 +153,30 @@ Client/SocketClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Client/SocketClient.cpp.s
 .PHONY : Client/SocketClient.cpp.s
 
+Game_GUI/BarPlayer.o: Game_GUI/BarPlayer.cpp.o
+.PHONY : Game_GUI/BarPlayer.o
+
+# target to build an object file
+Game_GUI/BarPlayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o
+.PHONY : Game_GUI/BarPlayer.cpp.o
+
+Game_GUI/BarPlayer.i: Game_GUI/BarPlayer.cpp.i
+.PHONY : Game_GUI/BarPlayer.i
+
+# target to preprocess a source file
+Game_GUI/BarPlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.i
+.PHONY : Game_GUI/BarPlayer.cpp.i
+
+Game_GUI/BarPlayer.s: Game_GUI/BarPlayer.cpp.s
+.PHONY : Game_GUI/BarPlayer.s
+
+# target to generate assembly for a file
+Game_GUI/BarPlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.s
+.PHONY : Game_GUI/BarPlayer.cpp.s
+
 Game_GUI/Game.o: Game_GUI/Game.cpp.o
 .PHONY : Game_GUI/Game.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... Client/SocketClient.o"
 	@echo "... Client/SocketClient.i"
 	@echo "... Client/SocketClient.s"
+	@echo "... Game_GUI/BarPlayer.o"
+	@echo "... Game_GUI/BarPlayer.i"
+	@echo "... Game_GUI/BarPlayer.s"
 	@echo "... Game_GUI/Game.o"
 	@echo "... Game_GUI/Game.i"
 	@echo "... Game_GUI/Game.s"

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.cpp
+BarPlayer.h
+/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.h
+
+/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.h
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+SFML/Window.hpp
+-
+SFML/Audio.hpp
+-
+SFML/Network.hpp
+-
+

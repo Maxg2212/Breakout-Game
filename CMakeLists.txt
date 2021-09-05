@@ -21,6 +21,6 @@ endif()
 
 
 
-add_executable(Breakout_Game SocketServer/SocketServer.cpp SocketServer/SocketServer.h Client/SocketClient.cpp Client/SocketClient.h Game_GUI/main.cpp Game_GUI/Game.cpp Game_GUI/Game.h Game_GUI/BarPlayer.cpp Game_GUI/BarPlayer.h)
+add_executable(Breakout_Game SocketServer/SocketServer.cpp SocketServer/SocketServer.h  Game_GUI/main.cpp Game_GUI/Game.cpp Game_GUI/Game.h Game_GUI/BarPlayer.cpp Game_GUI/BarPlayer.h Game_GUI/Ball.cpp Game_GUI/Ball.h)
 
 target_link_libraries (Breakout_Game sfml-graphics sfml-window sfml-system)

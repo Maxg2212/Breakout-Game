@@ -8,24 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  "/home/maxgm/CLionProjects/Breakout-Game/Client/SocketClient.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Client/SocketClient.cpp.o"
+  "/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Ball.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.o"
   "/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o"
   "/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o"
   "/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/main.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.o"
   "/home/maxgm/CLionProjects/Breakout-Game/SocketServer/SocketServer.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.o"
-=======
->>>>>>> Stashed changes
-  "/home/michael/Documentos/Breakout-Game/Client/SocketClient.cpp" "/home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Client/SocketClient.cpp.o"
-  "/home/michael/Documentos/Breakout-Game/Game_GUI/Game.cpp" "/home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o"
-  "/home/michael/Documentos/Breakout-Game/Game_GUI/main.cpp" "/home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.o"
-  "/home/michael/Documentos/Breakout-Game/SocketServer/SocketServer.cpp" "/home/michael/Documentos/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.o"
-<<<<<<< Updated upstream
-=======
->>>>>>> f15d25415025b1a225cf7f689e1be51d44303176
->>>>>>> Stashed changes
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

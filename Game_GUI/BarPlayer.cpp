@@ -45,10 +45,30 @@ void BarPlayer::updateInput() {
     }
 }
 
-void BarPlayer::update(sf::RenderTarget* target) {
-    //Window bounds collision
+void BarPlayer::updateWindowBoundsCollision(const sf::RenderTarget *target) {
+
+    //Left
+    sf::FloatRect playerBounds = this->shape.getGlobalBounds();
+    if (playerBounds.left <= 0.f)
+        this->shape.setPosition(0.f, playerBounds.top);
+    //Right
+    else if(playerBounds.left + playerBounds.width >= target->getSize().x)
+        this->shape.setPosition(target->getSize().x - playerBounds.width, playerBounds.top);
+    //Top
+    if (playerBounds.top <= 0.f)
+        this->shape.setPosition(playerBounds.left,0.f) ;
+    //Bottom
+    else if(playerBounds.top + playerBounds.height >= target->getSize().y)
+        this->shape.setPosition(playerBounds.left, target->getSize().y - playerBounds.height);
+
+}
+
+void BarPlayer::update(const sf::RenderTarget* target) {
 
     this->updateInput();
+
+    //Window bounds collision
+    this->updateWindowBoundsCollision(target);
 
 }
 
@@ -56,6 +76,8 @@ void BarPlayer::render(sf::RenderTarget *target) {
     target->draw(this->shape);
 
 }
+
+
 
 
 

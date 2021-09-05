@@ -1,4 +1,4 @@
-# Install script for directory: /home/maxgm/CLionProjects/Breakout-Game
+# Install script for directory: /home/michael/Documentos/Breakout-Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/michael/Documentos/Breakout-Game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

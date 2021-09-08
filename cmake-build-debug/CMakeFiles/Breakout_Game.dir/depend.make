@@ -8,11 +8,13 @@ CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o: \
  ../Game_GUI/BarPlayer.cpp \
  ../Game_GUI/BarPlayer.h
 CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o: \
+ ../Game_GUI/Ball.h \
  ../Game_GUI/BarPlayer.h \
  ../Game_GUI/Game.cpp \
  ../Game_GUI/Game.h
 CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.o: \
  ../SocketServer/SocketServer.h \
+ ../Game_GUI/Ball.h \
  ../Game_GUI/BarPlayer.h \
  ../Game_GUI/Game.h \
  ../Game_GUI/main.cpp

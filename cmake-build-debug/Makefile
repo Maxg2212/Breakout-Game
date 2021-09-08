@@ -129,78 +129,6 @@ Breakout_Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/build
 .PHONY : Breakout_Game/fast
 
-Game_GUI/Ball.o: Game_GUI/Ball.cpp.o
-.PHONY : Game_GUI/Ball.o
-
-# target to build an object file
-Game_GUI/Ball.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.o
-.PHONY : Game_GUI/Ball.cpp.o
-
-Game_GUI/Ball.i: Game_GUI/Ball.cpp.i
-.PHONY : Game_GUI/Ball.i
-
-# target to preprocess a source file
-Game_GUI/Ball.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.i
-.PHONY : Game_GUI/Ball.cpp.i
-
-Game_GUI/Ball.s: Game_GUI/Ball.cpp.s
-.PHONY : Game_GUI/Ball.s
-
-# target to generate assembly for a file
-Game_GUI/Ball.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.s
-.PHONY : Game_GUI/Ball.cpp.s
-
-Game_GUI/BarPlayer.o: Game_GUI/BarPlayer.cpp.o
-.PHONY : Game_GUI/BarPlayer.o
-
-# target to build an object file
-Game_GUI/BarPlayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o
-.PHONY : Game_GUI/BarPlayer.cpp.o
-
-Game_GUI/BarPlayer.i: Game_GUI/BarPlayer.cpp.i
-.PHONY : Game_GUI/BarPlayer.i
-
-# target to preprocess a source file
-Game_GUI/BarPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.i
-.PHONY : Game_GUI/BarPlayer.cpp.i
-
-Game_GUI/BarPlayer.s: Game_GUI/BarPlayer.cpp.s
-.PHONY : Game_GUI/BarPlayer.s
-
-# target to generate assembly for a file
-Game_GUI/BarPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.s
-.PHONY : Game_GUI/BarPlayer.cpp.s
-
-Game_GUI/Game.o: Game_GUI/Game.cpp.o
-.PHONY : Game_GUI/Game.o
-
-# target to build an object file
-Game_GUI/Game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o
-.PHONY : Game_GUI/Game.cpp.o
-
-Game_GUI/Game.i: Game_GUI/Game.cpp.i
-.PHONY : Game_GUI/Game.i
-
-# target to preprocess a source file
-Game_GUI/Game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.i
-.PHONY : Game_GUI/Game.cpp.i
-
-Game_GUI/Game.s: Game_GUI/Game.cpp.s
-.PHONY : Game_GUI/Game.s
-
-# target to generate assembly for a file
-Game_GUI/Game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.s
-.PHONY : Game_GUI/Game.cpp.s
-
 Game_GUI/main.o: Game_GUI/main.cpp.o
 .PHONY : Game_GUI/main.o
 
@@ -249,6 +177,78 @@ SocketServer/SocketServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.s
 .PHONY : SocketServer/SocketServer.cpp.s
 
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.o: home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.o
+
+# target to build an object file
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o
+
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.i: home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.i
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.i
+
+# target to preprocess a source file
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.i
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.i
+
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.s: home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.s
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.s
+
+# target to generate assembly for a file
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.s
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.s
+
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.o: home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.o
+
+# target to build an object file
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o
+
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.i: home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.i
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.i
+
+# target to preprocess a source file
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.i
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.i
+
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.s: home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.s
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.s
+
+# target to generate assembly for a file
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.s
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.s
+
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.o: home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.o
+
+# target to build an object file
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o
+
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.i: home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.i
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.i
+
+# target to preprocess a source file
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.i
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.i
+
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.s: home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.s
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.s
+
+# target to generate assembly for a file
+home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Breakout_Game.dir/build.make CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.s
+.PHONY : home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -258,21 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Breakout_Game"
-	@echo "... Game_GUI/Ball.o"
-	@echo "... Game_GUI/Ball.i"
-	@echo "... Game_GUI/Ball.s"
-	@echo "... Game_GUI/BarPlayer.o"
-	@echo "... Game_GUI/BarPlayer.i"
-	@echo "... Game_GUI/BarPlayer.s"
-	@echo "... Game_GUI/Game.o"
-	@echo "... Game_GUI/Game.i"
-	@echo "... Game_GUI/Game.s"
 	@echo "... Game_GUI/main.o"
 	@echo "... Game_GUI/main.i"
 	@echo "... Game_GUI/main.s"
 	@echo "... SocketServer/SocketServer.o"
 	@echo "... SocketServer/SocketServer.i"
 	@echo "... SocketServer/SocketServer.s"
+	@echo "... home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.o"
+	@echo "... home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.i"
+	@echo "... home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.s"
+	@echo "... home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.o"
+	@echo "... home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.i"
+	@echo "... home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.s"
+	@echo "... home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.o"
+	@echo "... home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.i"
+	@echo "... home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.s"
 .PHONY : help
 
 

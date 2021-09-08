@@ -1,6 +1,6 @@
 #include "SocketServer/SocketServer.h"
 #include <iostream>
-#include "Game.h"
+#include "../../../Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <SFML/Window.hpp>

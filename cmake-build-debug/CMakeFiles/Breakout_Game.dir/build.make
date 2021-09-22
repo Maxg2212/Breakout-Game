@@ -92,61 +92,61 @@ CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/main.cpp -o CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.s
 
-CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o: CMakeFiles/Breakout_Game.dir/flags.make
-CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o: ../Game_GUI/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o -c /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.cpp
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o: CMakeFiles/Breakout_Game.dir/flags.make
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o: /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o -c /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp
 
-CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.cpp > CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.i
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp > CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.i
 
-CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.cpp -o CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.s
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp -o CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.s
 
-CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o: CMakeFiles/Breakout_Game.dir/flags.make
-CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o: ../Game_GUI/BarPlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o -c /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.cpp
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o: CMakeFiles/Breakout_Game.dir/flags.make
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o: /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o -c /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp
 
-CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.cpp > CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.i
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp > CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.i
 
-CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.cpp -o CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.s
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp -o CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.s
 
-CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.o: CMakeFiles/Breakout_Game.dir/flags.make
-CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.o: ../Game_GUI/Ball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.o -c /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Ball.cpp
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o: CMakeFiles/Breakout_Game.dir/flags.make
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o: /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o -c /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp
 
-CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Ball.cpp > CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.i
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp > CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.i
 
-CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Ball.cpp -o CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.s
+CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp -o CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.s
 
 # Object files for target Breakout_Game
 Breakout_Game_OBJECTS = \
 "CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.o" \
 "CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.o" \
-"CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o" \
-"CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o" \
-"CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.o"
+"CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o" \
+"CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o" \
+"CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o"
 
 # External object files for target Breakout_Game
 Breakout_Game_EXTERNAL_OBJECTS =
 
 Breakout_Game: CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.o
 Breakout_Game: CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.o
-Breakout_Game: CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o
-Breakout_Game: CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o
-Breakout_Game: CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.o
+Breakout_Game: CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o
+Breakout_Game: CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o
+Breakout_Game: CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o
 Breakout_Game: CMakeFiles/Breakout_Game.dir/build.make
 Breakout_Game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Breakout_Game: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1

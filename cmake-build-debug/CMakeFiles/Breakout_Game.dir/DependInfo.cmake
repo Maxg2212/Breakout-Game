@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Ball.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/Ball.cpp.o"
-  "/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o"
-  "/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o"
   "/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/main.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.o"
   "/home/maxgm/CLionProjects/Breakout-Game/SocketServer/SocketServer.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/SocketServer/SocketServer.cpp.o"
+  "/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp.o"
+  "/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp.o"
+  "/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp" "/home/maxgm/CLionProjects/Breakout-Game/cmake-build-debug/CMakeFiles/Breakout_Game.dir/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

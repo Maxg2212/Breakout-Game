@@ -88,24 +88,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Ball.cpp">
-			<Option target="Breakout_Game"/>
-		</Unit>
-		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Ball.h">
-			<Option target="Breakout_Game"/>
-		</Unit>
-		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.cpp">
-			<Option target="Breakout_Game"/>
-		</Unit>
-		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.h">
-			<Option target="Breakout_Game"/>
-		</Unit>
-		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.cpp">
-			<Option target="Breakout_Game"/>
-		</Unit>
-		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.h">
-			<Option target="Breakout_Game"/>
-		</Unit>
 		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/Game_GUI/main.cpp">
 			<Option target="Breakout_Game"/>
 		</Unit>
@@ -113,6 +95,24 @@
 			<Option target="Breakout_Game"/>
 		</Unit>
 		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/SocketServer/SocketServer.h">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.cpp">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Ball.h">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.cpp">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/BarPlayer.h">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.cpp">
+			<Option target="Breakout_Game"/>
+		</Unit>
+		<Unit filename="/home/maxgm/Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.h">
 			<Option target="Breakout_Game"/>
 		</Unit>
 		<Unit filename="/home/maxgm/CLionProjects/Breakout-Game/CMakeLists.txt">

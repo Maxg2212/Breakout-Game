@@ -8,11 +8,13 @@ CMakeFiles/Breakout_Game.dir/Game_GUI/BarPlayer.cpp.o
  /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.cpp
  /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.h
 CMakeFiles/Breakout_Game.dir/Game_GUI/Game.cpp.o
+ /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Ball.h
  /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.h
  /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.cpp
  /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.h
 CMakeFiles/Breakout_Game.dir/Game_GUI/main.cpp.o
  ../SocketServer/SocketServer.h
+ /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Ball.h
  /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/BarPlayer.h
  /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/Game.h
  /home/maxgm/CLionProjects/Breakout-Game/Game_GUI/main.cpp

@@ -1,11 +1,10 @@
 #include "SocketServer/SocketServer.h"
-#include <iostream>
-#include "../../../Escritorio/Datos2/Breakout-Game-Client/Game_GUI/Game.h"
-#include <SFML/Graphics.hpp>
-#include <SFML/System.hpp>
-#include <SFML/Window.hpp>
-#include <SFML/Audio.hpp>
-#include <SFML/Network.hpp>
+    #include <iostream>
+    #include <SFML/Graphics.hpp>
+    #include <SFML/System.hpp>
+    #include <SFML/Window.hpp>
+    #include <SFML/Audio.hpp>
+    #include <SFML/Network.hpp>
 
 SocketServer* server;
 
@@ -22,39 +21,22 @@ int main()
 {
 
     
-    //server = new SocketServer;
-    //pthread_t hiloS;
-    //pthread_create(&hiloS,0,serverRun,NULL);
-    //pthread_detach(hiloS);
+    server = new SocketServer;
+    pthread_t hiloS;
+    pthread_create(&hiloS,0,serverRun,NULL);
+    pthread_detach(hiloS);
 
     //Ciclo para enviar mensajes al cliente
-    //string json = "Hola desde el servidor";
-    //while(1){
-        //string msn;
-        //cin >> msn;
-        //if(msn == "salir")
-            //break;
-        //server->setMensaje(json.c_str());
-    //}
-    //delete server;
-
-    //Init game engine
-    Game game;
-
-
-    //Game loop
-    while (game.running()){
-
-
-        //Update
-        game.update();
-
-        //Render
-        game.render();
-
-
+    string json = "Hola desde el servidor";
+    while(1){
+        string msn;
+        cin >> msn;
+        if(msn == "salir")
+            break;
+        server->setMensaje(json.c_str());
     }
-    //End of application
+    delete server;
+
     return 0;
 
 }

@@ -20,7 +20,9 @@ void * serverRun(void *){
 int main()
 {
 
-    
+    //Server side
+
+
     server = new SocketServer;
     pthread_t hiloS;
     pthread_create(&hiloS,0,serverRun,NULL);

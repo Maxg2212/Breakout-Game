@@ -13,6 +13,10 @@
 #include <pthread.h>
 #include <vector>
 #include <unistd.h>
+#include <jsoncpp/json/value.h>
+#include <jsoncpp/json/json.h>
+#include <jsoncpp/json/reader.h>
+#include <jsoncpp/json/writer.h>
 using namespace std;
 
 
@@ -27,6 +31,11 @@ public:
     SocketServer();
     void run();
     void setMensaje(const char* msn);
+    static string receivedMessage;
+
+
+
+
 
 private:
     int descriptor; //Identifica clientes
@@ -35,7 +44,9 @@ private:
 
     bool crear_socket();
     bool enlazar_kernel();
-    static void* ContoladorCliente(void* obj);
+    void* ContoladorCliente(void* obj);
+
+
 
 
 };

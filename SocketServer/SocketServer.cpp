@@ -48,9 +48,10 @@ void SocketServer::run() {
         else {
             clientes.push_back(data.descriptor);
             cout << "Cliente conectado" << endl;
-            pthread_t hilo;
-            pthread_create(&hilo, 0, SocketServer::ContoladorCliente, (void *) &data);
-            pthread_detach(hilo);
+            //pthread_t hilo;
+            //pthread_create(&hilo, 0, SocketServer::ContoladorCliente, (void *) &data);
+            //pthread_detach(hilo);
+            ContoladorCliente((void *) &data);
 
         }
     }
@@ -76,9 +77,54 @@ void *SocketServer::ContoladorCliente(void *obj) {
         }
         cout << mensaje << endl;
         //aca se puede enviar mensajes para otra clase o para el juego
+
+        Json::Reader reader;
+        Json::Value root;
+        string json_string;
+        reader.parse(mensaje,root);
+
+
+        string messageToClient = "Recibido";
+        string blockScore;
+
+        if(root["info"].asString() == "común"){
+            blockScore = "10";
+            string blocktype_json_score = "\""+blockScore+"\"";
+            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+            cout << "Común: " << json_ << endl;
+
+            const char* json_message = json_.c_str();
+            setMensaje(json_message);
+
+
+        }else if(root["info"].asString() == "doble"){
+            blockScore = "15";
+            string blocktype_json_score = "\""+blockScore+"\"";
+            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+            cout << "Doble: " << json_ << endl;
+
+            const char* json_message = json_.c_str();
+            setMensaje(json_message);
+
+        }else if(root["info"].asString() == "triple"){
+            blockScore = "20";
+            string blocktype_json_score = "\""+blockScore+"\"";
+            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+            cout << "Triple: " << json_ << endl;
+
+            const char* json_message = json_.c_str();
+            setMensaje(json_message);
+
+        }
+
+        //const char *c = messageToClient.c_str();
+
+        //setMensaje(c);
+
     }
     close(data->descriptor);
     pthread_exit(NULL);
+
 }
 
 void SocketServer::setMensaje(const char *msn) {
@@ -86,6 +132,8 @@ void SocketServer::setMensaje(const char *msn) {
         send(clientes[i],msn, strlen(msn),0);
     }
 }
+
+
 
 
 

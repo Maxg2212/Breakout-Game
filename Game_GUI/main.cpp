@@ -21,8 +21,6 @@ int main()
 {
 
     //Server side
-
-
     server = new SocketServer;
     pthread_t hiloS;
     pthread_create(&hiloS,0,serverRun,NULL);
@@ -33,6 +31,7 @@ int main()
     while(1){
         string msn;
         cin >> msn;
+
         if(msn == "salir")
             break;
         server->setMensaje(json.c_str());

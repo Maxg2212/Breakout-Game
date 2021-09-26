@@ -7,11 +7,24 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(SFML_INCLUDE_DIR "/home/rewieer/Libraries/SFML-2.5.1/include")
 set(SFML_LIBRARY_DIR "/home/rewieer/Libraries/SFML-2.5.1/lib")
 set(SFML_DIR "/home/rewieer/Libraries/SFML-2.5.1/lib/cmake/SFML")
+set(jsoncpp_lib_dir ${CMAKE_BINARY_DIR}/jsoncpp-build/src/lib_json)
+set(jsoncpp_src_dir ${CMAKE_BINARY_DIR}/jsoncpp-src/include)
 
+
+link_directories(jsoncpp_lib_dir)
+include_directories(jsoncpp_include_dir)
 link_directories(SFML_LIBRARY_DIR)
 include_directories(SFML_INCLUDE_DIR)
 
+
 find_package(SFML 2.5.1 COMPONENTS system window graphics network audio)
+find_package(jsoncpp)
+
+if (jsoncpp_found)
+    message(STATUS "jsoncpp_include_dir:${jsoncpp_include_dir}")
+    message(STATUS "jsoncpp_libraries:${jsoncpp_libraries}")
+    message(STATUS "jsoncpp_version:${jsoncpp_version}")
+endif ()
 
 if(SFML_FOUND)
     message(STATUS "SFML_INCLUDE_DIR: ${SFML_INCLUDE_DIR}")
@@ -19,8 +32,5 @@ if(SFML_FOUND)
     message(STATUS "SFML_VERSION: ${SFML_VERSION}")
 endif()
 
-
-
-add_executable(Breakout_Game SocketServer/SocketServer.cpp SocketServer/SocketServer.h  Game_GUI/main.cpp)
-
-target_link_libraries (Breakout_Game sfml-graphics sfml-window sfml-system sfml-network)
+add_executable(Breakout_Game Game_GUI/main.cpp SocketServer/SocketServer.cpp SocketServer/SocketServer.h)
+target_link_libraries (Breakout_Game sfml-graphics sfml-window sfml-system sfml-network jsoncpp)

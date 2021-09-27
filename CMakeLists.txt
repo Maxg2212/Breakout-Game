@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 project(Breakout_Game)
 
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS -pthread)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -32,5 +33,7 @@ if(SFML_FOUND)
     message(STATUS "SFML_VERSION: ${SFML_VERSION}")
 endif()
 
-add_executable(Breakout_Game Game_GUI/main.cpp SocketServer/SocketServer.cpp SocketServer/SocketServer.h)
+
+add_executable(Breakout_Game SocketServer/SocketServer.cpp SocketServer/SocketServer.h  Game_GUI/main.cpp)
+
 target_link_libraries (Breakout_Game sfml-graphics sfml-window sfml-system sfml-network jsoncpp)

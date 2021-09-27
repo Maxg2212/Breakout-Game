@@ -84,10 +84,10 @@ void *SocketServer::ContoladorCliente(void *obj) {
         reader.parse(mensaje,root);
 
 
-        string messageToClient = "Recibido";
         string blockScore;
 
         if(root["info"].asString() == "común"){
+
             blockScore = "10";
             string blocktype_json_score = "\""+blockScore+"\"";
             string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
@@ -96,8 +96,8 @@ void *SocketServer::ContoladorCliente(void *obj) {
             const char* json_message = json_.c_str();
             setMensaje(json_message);
 
-
         }else if(root["info"].asString() == "doble"){
+
             blockScore = "15";
             string blocktype_json_score = "\""+blockScore+"\"";
             string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
@@ -107,6 +107,7 @@ void *SocketServer::ContoladorCliente(void *obj) {
             setMensaje(json_message);
 
         }else if(root["info"].asString() == "triple"){
+
             blockScore = "20";
             string blocktype_json_score = "\""+blockScore+"\"";
             string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
@@ -115,16 +116,42 @@ void *SocketServer::ContoladorCliente(void *obj) {
             const char* json_message = json_.c_str();
             setMensaje(json_message);
 
+        }else if(root["info"].asString() == "interno"){
+
+            blockScore = "30";
+            string blocktype_json_score = "\""+blockScore+"\"";
+            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+            cout << "Interno : " << json_ << endl;
+
+            const char* json_message = json_.c_str();
+            setMensaje(json_message);
+
+        }else if(root["info"].asString() == "profundo"){
+
+            blockScore = "0";
+            string blocktype_json_score = "\""+blockScore+"\"";
+            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+            cout << "Profundo : " << json_ << endl;
+
+            const char* json_message = json_.c_str();
+            setMensaje(json_message);
+
+        }else{
+
+            blockScore = "0";
+            string blocktype_json_score = "\""+blockScore+"\"";
+            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+            cout << "Sorpresa : " << json_ << endl;
+
+            const char* json_message = json_.c_str();
+            setMensaje(json_message);
+
+            //Change ---
+
         }
-
-        //const char *c = messageToClient.c_str();
-
-        //setMensaje(c);
-
     }
     close(data->descriptor);
     pthread_exit(NULL);
-
 }
 
 void SocketServer::setMensaje(const char *msn) {
@@ -132,11 +159,3 @@ void SocketServer::setMensaje(const char *msn) {
         send(clientes[i],msn, strlen(msn),0);
     }
 }
-
-
-
-
-
-
-
-

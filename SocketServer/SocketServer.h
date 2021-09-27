@@ -34,9 +34,6 @@ public:
     static string receivedMessage;
 
 
-
-
-
 private:
     int descriptor; //Identifica clientes
     sockaddr_in info; //informacion del socket servidor

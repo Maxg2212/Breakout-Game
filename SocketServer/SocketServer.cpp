@@ -52,7 +52,6 @@ void SocketServer::run() {
             //pthread_create(&hilo, 0, SocketServer::ContoladorCliente, (void *) &data);
             //pthread_detach(hilo);
             ContoladorCliente((void *) &data);
-
         }
     }
     close(descriptor);
@@ -83,14 +82,26 @@ void *SocketServer::ContoladorCliente(void *obj) {
         string json_string;
         reader.parse(mensaje,root);
 
-
         string blockScore;
+        string newBall;
+        string json_ball;
+
+        int receivedScore = stoi(root["score"].asString());
 
         if(root["info"].asString() == "común"){
-
             blockScore = "10";
             string blocktype_json_score = "\""+blockScore+"\"";
-            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+
+            if(receivedScore % 200==0 and receivedScore != 0){
+                newBall = "newBall";
+                json_ball = "\""+newBall+"\"";
+
+            }else{
+                newBall = "noMoreBalls";
+                json_ball = "\""+newBall+"\"";
+            }
+            string json_ = "{\"block_points\":" + blocktype_json_score+ + "," + "\"balls\":" + json_ball + "}";
+
             cout << "Común: " << json_ << endl;
 
             const char* json_message = json_.c_str();
@@ -100,8 +111,18 @@ void *SocketServer::ContoladorCliente(void *obj) {
 
             blockScore = "15";
             string blocktype_json_score = "\""+blockScore+"\"";
-            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
-            cout << "Doble: " << json_ << endl;
+
+            if(receivedScore % 200==0 and receivedScore != 0){
+                newBall = "newBall";
+                json_ball = "\""+newBall+"\"";
+
+            }else{
+                newBall = "noMoreBalls";
+                json_ball = "\""+newBall+"\"";
+            }
+            string json_ = "{\"block_points\":" + blocktype_json_score+ + "," + "\"score\":" + json_ball + "}";
+
+            cout << "Doble : " << json_ << endl;
 
             const char* json_message = json_.c_str();
             setMensaje(json_message);
@@ -110,8 +131,18 @@ void *SocketServer::ContoladorCliente(void *obj) {
 
             blockScore = "20";
             string blocktype_json_score = "\""+blockScore+"\"";
-            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
-            cout << "Triple: " << json_ << endl;
+
+            if(receivedScore % 200==0 and receivedScore != 0){
+                newBall = "newBall";
+                json_ball = "\""+newBall+"\"";
+
+            }else{
+                newBall = "noMoreBalls";
+                json_ball = "\""+newBall+"\"";
+            }
+            string json_ = "{\"block_points\":" + blocktype_json_score+ + "," + "\"balls\":" + json_ball + "}";
+
+            cout << "Triple : " << json_ << endl;
 
             const char* json_message = json_.c_str();
             setMensaje(json_message);
@@ -120,7 +151,17 @@ void *SocketServer::ContoladorCliente(void *obj) {
 
             blockScore = "30";
             string blocktype_json_score = "\""+blockScore+"\"";
-            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+
+            if(receivedScore % 200==0 and receivedScore != 0){
+                newBall = "newBall";
+                json_ball = "\""+newBall+"\"";
+
+            }else{
+                newBall = "noMoreBalls";
+                json_ball = "\""+newBall+"\"";
+            }
+            string json_ = "{\"block_points\":" + blocktype_json_score+ + "," + "\"balls\":" + json_ball + "}";
+
             cout << "Interno : " << json_ << endl;
 
             const char* json_message = json_.c_str();
@@ -130,24 +171,40 @@ void *SocketServer::ContoladorCliente(void *obj) {
 
             blockScore = "0";
             string blocktype_json_score = "\""+blockScore+"\"";
-            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+            if(receivedScore % 200==0 and receivedScore != 0){
+                newBall = "newBall";
+                json_ball = "\""+newBall+"\"";
+
+            }else{
+                newBall = "noMoreBalls";
+                json_ball = "\""+newBall+"\"";
+            }
+            string json_ = "{\"block_points\":" + blocktype_json_score+ + "," + "\"balls\":" + json_ball + "}";
+
             cout << "Profundo : " << json_ << endl;
 
             const char* json_message = json_.c_str();
             setMensaje(json_message);
 
         }else{
-
             blockScore = "0";
             string blocktype_json_score = "\""+blockScore+"\"";
-            string json_ = "{\"block_points\" : " + blocktype_json_score+ "}";
+
+            if(receivedScore % 200==0 and receivedScore != 0){
+                newBall = "newBall";
+                json_ball = "\""+newBall+"\"";
+
+            }else{
+                newBall = "noMoreBalls";
+                json_ball = "\""+newBall+"\"";
+            }
+
+            string json_ = "{\"block_points\":" + blocktype_json_score+ + "," + "\"balls\":" + json_ball + "}";
+
             cout << "Sorpresa : " << json_ << endl;
 
             const char* json_message = json_.c_str();
             setMensaje(json_message);
-
-            //Change ---
-
         }
     }
     close(data->descriptor);

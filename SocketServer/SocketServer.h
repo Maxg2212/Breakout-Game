@@ -50,11 +50,11 @@ public:
     void setMensaje(const char* msn);
     static string receivedMessage;
 
+
 private:
     int descriptor; //Identifica clientes
     sockaddr_in info; //informacion del socket servidor
     vector<int> clientes; //almacena clientes
-
     /**
      * @brief Permite crear el socket que se va utilizar en la conexión
      * @return true si permite crear el socket, false en caso contrario
@@ -69,6 +69,10 @@ private:
      * @brief Funciona como controlador de flujo de información para el servidor
      */
     void* ContoladorCliente(void* obj);
+
+
+
+
 };
 
 #endif //BREAKOUT_GAME_SOCKETSERVER_H
